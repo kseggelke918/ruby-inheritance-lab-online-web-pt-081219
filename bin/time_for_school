@@ -23,3 +23,7 @@ puts "Steve1 just learned this important knowledge: '#{steve.knowledge.last}' fr
 jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Smith"
+
+jim.learn(some_knowledge)
+
+puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
